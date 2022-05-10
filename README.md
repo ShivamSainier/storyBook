@@ -1,6 +1,4 @@
-## Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Storybook is a collection of Stories and each Story represents a Single Visual State of component. 
 
 
 ### `npm start`
