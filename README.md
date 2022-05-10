@@ -7,3 +7,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+
+### `npm sb init`
+
+Initialize Storybook into our React app. 
+
+### `npm run storybook`
+
+Run the Storybook.
