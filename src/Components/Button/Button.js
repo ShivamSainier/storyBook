@@ -2,9 +2,10 @@ import React from "react";
 import "./Button.css"
 
 function Button(props){
-  const {variant="primary",children,...rest}=props
+  const {variant,children,...rest}=props
+  console.log("props of Button",variant);
   return(
-  <button className={`button ${variant} {...rest}`}>{children}</button>
+  <button className={`button secondary {...rest}`}>{children}</button>
   )
 }
 
