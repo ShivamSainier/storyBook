@@ -3,12 +3,12 @@ import React from "react";
 
 
 export default{
-  title:"Input",
+  title:"form/Input",
   component:Input
 };
 
-const small=()=><Input size="small" text="Small Input" />
-const medium=()=><Input size="medium" text="Medium Input" />
-const large=()=><Input size="large" text="Large Input" />
+const Small=()=><Input size="small" placeholder="Small Input" />
+const Medium=()=><Input size="medium" placeholder="Medium Input" />
+const Large=()=><Input size="large" placeholder="Large Input" />
 
-export {small,medium,large}
+export {Small,Medium,Large}
