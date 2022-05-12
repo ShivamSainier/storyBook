@@ -4,7 +4,8 @@ import Center from "../Center/Center"
 
 export default{
   title:"form/Button",
-  component:Button
+  component:Button,
+  decorators:[story=><Center>{story()}</Center>]
 }
 
 const Primary=()=><Center><Button variant="primary" >Primary</Button></Center>
